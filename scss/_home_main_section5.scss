@@ -1,0 +1,61 @@
+.home-section-five{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/Background\(1\).svg);
+}
+
+
+.home-section-five-box{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+.home-section-five-mini-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    border: 1px solid green;
+}
+
+.home-section-five-title{
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #7EB693;
+    font-style: italic;
+
+
+}
+
+.home-section-five-titles{
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #274C5B;
+
+}
+
+.home-five-mini-text{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 29.77px;
+    text-align: center;
+}
+
+.home-section-five-titles-mini{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: center;
+}

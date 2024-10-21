@@ -1,0 +1,70 @@
+.about-section-four{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.about-section-four-box{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.about-section-four-mega-mini-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 312px;
+}
+.about-four-mini-box{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    height: 615px;
+    background-color: #F9F8F8;
+    border: none;
+    border-radius: 20px;
+    &:hover{
+        background-color: bisque;
+        box-shadow: 5px 5px 5px 5px burlywood;
+    }
+}
+
+.about-section-box-mini-title{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.about-section-four-mega-mini-title{
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #7EB693;
+    font-style: italic;
+}
+
+.about-section-four-mega-mini-title-one{
+    font-family: "Brush Script MT"; 
+    font-size: 50px;
+    color: #7EB693;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+.about-section-four-titles{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+}
+
+.about-section-four-text{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+}

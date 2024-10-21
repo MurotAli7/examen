@@ -1,0 +1,55 @@
+.about-section-five{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #274C5B;
+}
+
+.about-section-five-mini-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.about-section-five-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 335px;
+    height: 367px;
+    border-radius: 20px;
+    &:hover{
+        background-color: bisque;
+        box-shadow: 5px 5px rgb(206, 146, 74);
+        .about-five-text{
+            color: #274c5b;
+        }
+    }
+}
+
+.about-section-five-title{
+    font-family: "Brush Script MT"; 
+    font-size: 50px;
+    color: #7EB693;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+.about-section-five-titles{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    color: #fff;
+    margin-bottom: 0px;
+}
+
+.about-five-text{
+    color: #fff;
+}

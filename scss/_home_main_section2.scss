@@ -1,0 +1,63 @@
+.home-section-two{
+    display: flex;
+    width: 100%;
+    height: 365px;
+    gap: 40px;
+    padding-left: 80px;
+    margin-top: 50px;
+}
+.home-section-two-box{
+
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 300px;
+    background-image: url(../img/Image.svg);
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+
+.home-section-two-box-one{
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+    height: 300px;
+    background-image: url(../img/Photo.svg);
+    padding-top: 40px;
+    padding-left: 20px;
+    border-radius: 25px;
+}
+.home-section-two-title{
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #fff;
+    font-style: italic;
+}
+.home-section-two-titles{
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #68A47F;
+    font-style: italic;
+}
+.home-section-two-bold-title{
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #fff;
+
+
+}
+.home-section-two-bold-titles{
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #274C5B;
+
+
+}

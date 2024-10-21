@@ -1,0 +1,122 @@
+.about-section-three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 1050px;
+}
+
+.about-section-three-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.about-section-three-title{
+    font-family: "Brush Script MT"; 
+    font-size: 50px;
+    color: #7EB693;
+    font-style: italic;
+}
+
+.about-section-three-titles{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    margin-top: 10px;
+    color: #274C5B;
+}
+
+.about-sectio-three-text{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: left;
+}
+
+
+.about-section-three-mega-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.about-section-three
+.about-section-three-img{
+    width: 680px;
+    height: 580px;
+    margin-top: 30px;
+}
+
+.about-section-three-{
+    display: flex;
+    width: 340px;
+    height: 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: #d9d4d4;
+    align-items: center;
+    padding-left: 40px;
+    &:hover{
+        .about-section-three-mini{
+           background-color: red;
+        }
+    }
+}
+
+.minititle{
+    color: #274C5B;
+}
+
+.about-section-three-mini{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid rgb(2, 82, 2);
+    margin-right: 10px;
+    
+}
+
+
+.about-section-three-child-box{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.about-section-three-mini-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    height: 335px;
+    border: none;
+    border-radius: 10px;
+    background-color: #d9d4d4;
+    &:hover{
+        background-color: cadetblue;
+        box-shadow:5px 5px 5px 5px rgb(3, 66, 68);
+        .about-sectio-three-mini-title{
+            color: brown;
+        }
+    }
+}
+
+.about-sectio-three-mini-title{
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 29.3px;
+    text-align: left;
+    color: #274C5B;
+}
+
+.about-section-three-mini-text{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 29.77px;
+    text-align: center;
+}

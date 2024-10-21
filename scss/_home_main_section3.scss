@@ -1,0 +1,52 @@
+.home-section-three{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    background-color: aliceblue;
+}
+.home-section-three-box{
+    display: flex;
+    flex-direction: column;
+}
+.home-section-three-mini-box{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.home-section-three-title{
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #68A47F;
+    font-style: italic;
+}
+.home-section-three-bold-title{
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #274C5B;
+    margin-top: 10px;
+
+}
+.home-section-three-text{
+    margin-top: 5px;
+}
+.home-section-three-btn{
+    width: 220px;
+    height: 80px;
+    color: #fff;
+    background-color: #274C5B;
+    border-radius: 10px;
+    &:hover{
+        background-color: blue;
+    }
+    &:active{
+        background-color: aqua;
+    }
+    margin-top: 20px;
+}
+.shop-now-link{
+    color: #fff;
+}

@@ -1,0 +1,93 @@
+.home-section-six-old-box{
+    display: flex;
+}
+.home-section-six-box{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    background-color: #274C5B;
+}
+
+.home-section-six-mini-box{
+    width: 305px;
+    height: 480px;
+    background: #dedddd;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.home-section-six-img{
+    width: 300px;
+    height: 250px;
+}
+
+.home-section-six-mega-mini-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home-section-six-mega-mini-box{
+    width: 96px;
+    height: 30px;
+    margin-right: 100px;
+    background: #274C5B;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+
+}
+
+
+.home-section-six-box-two{
+    display: flex;
+    gap: 500px;
+    justify-content: space-between;
+}
+
+.home-section-six-btn{
+    width: 255px;
+    height: 80px;
+    margin-right: 120px;
+    border-radius: 20px;
+    background: #f1ce4f;
+    &:hover{
+        background: orange;
+    }
+    &:active{
+        background: yellow;
+    }
+}
+
+.section-six-home{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0.8%;
+    height: 950px;
+}
+
+.home-section-six-box-two{
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 58.59px;
+    text-align: left;
+    color: #fff;
+}
+
+.home-section-six-title{
+    margin-top: 50px;
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #7EB693;
+    font-style: italic;
+}

@@ -1,0 +1,19 @@
+.about-section-one-box{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../img/BannerImage\(3\).svg);
+    align-items: center;
+    align-content: center;
+    margin-bottom: 80px;
+}
+.about-section-one-title{
+    margin-top: 50px;
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #274C5B;
+}

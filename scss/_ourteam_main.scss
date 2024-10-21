@@ -1,0 +1,19 @@
+.team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(../img/Background\ Image.svg);
+    width: 100%;
+    height: 350px;
+}
+
+.our-title{
+  margin-top: 160px;
+}
+
+.our-section-four-box{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
+}

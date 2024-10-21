@@ -1,0 +1,48 @@
+.footer-box{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin-top: 0px;
+}
+.footer-icon-box{
+    display: flex;
+    align-items: center;
+}
+
+.footer-one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.footer-title{
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 35.16px;
+    text-align: left;
+    color: #274c5b;
+}
+
+.footer-mini-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-mini-box-one{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin-top: 230px;
+}
+
+.fooetr-mini-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    border-right-color: #274c5b;
+    border-left-color: #274c5b;
+}

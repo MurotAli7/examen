@@ -1,0 +1,59 @@
+.about-section-two-box{
+    display: flex;
+    width: 100%;
+
+}
+
+.about-section-two-title{
+    font-family: "Brush Script MT"; 
+    font-size: 24px;
+    color: #7EB693;
+    font-style: italic;
+}
+
+.about-section-one-title{
+    font-family: Roboto;
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 82.03px;
+    text-align: left;
+    color: #274C5B;
+
+}
+
+.about-section-two-titles{
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: 80px;
+    line-height: 50px;
+    text-align: left;
+    color: #274C5B;
+}
+
+.about-section-two-old-mini-box{
+    display: flex;
+    gap: 20px;
+}
+.about-section-two-mini-box{
+    display: flex;
+    gap: 10px;
+}
+.about-learn-more{
+    width: 225px;
+    height: 80px;
+    background-color: #274C5B;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    &:hover{
+        background-color: aqua;
+    }
+    &:active{
+        background-color: blue;
+    }
+}
+
+.about-section-one-mini-title{
+    line-height: 20px
+}
